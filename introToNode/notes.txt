@@ -1,0 +1,12 @@
+Node JS is a javascript runtime built on google's V8 JS Engine
+
+node is a container or an environment where we can run the JS
+
+Node JS is single threaded based on event driven non blocking I/O model
+
+type node to open repl (read eval print loop)
+enter .exit to exit the repl
+go to repl and click tab to get all the global variables in node js
+
+additional functionalities are stored in modules
+
