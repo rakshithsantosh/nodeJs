@@ -1,6 +1,16 @@
 const fs = require('fs');
 
-const hello = "hello world!"
-console.log(hello)
+const text = fs.readFileSync('./text/input.txt','utf-8') 
 
-//to run this file write node and write the name of the file
+console.log(text)
+
+const textout = `some text i think ${text}`
+
+fs.writeFileSync('./text/output.txt',textout)
+
+console.log("file written")
+
+//reading file asynchronous way
+fs.readFile('./text/input.txt','utf-8',(err,data)=>{
+    console.log(data)
+})
