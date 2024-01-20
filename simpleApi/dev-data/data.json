@@ -1,0 +1,48 @@
+ [
+      {
+        "id": 1,
+        "productName": "Organic Apple",
+        "image": "apple.jpg",
+        "from": "Local Farm",
+        "nutrients": {
+          "vitaminC": "20mg",
+          "fiber": "5g",
+          "calories": "100"
+        },
+        "quantity": "1 kg",
+        "price": 2.99,
+        "organic": true,
+        "description": "Fresh and juicy organic apples from a local farm."
+      },
+      {
+        "id": 2,
+        "productName": "Spinach",
+        "image": "spinach.jpg",
+        "from": "Organic Garden",
+        "nutrients": {
+          "iron": "3mg",
+          "vitaminA": "5000 IU",
+          "calories": "20"
+        },
+        "quantity": "500g",
+        "price": 1.99,
+        "organic": true,
+        "description": "Nutrient-rich organic spinach for a healthy diet."
+      },
+      {
+        "id": 3,
+        "productName": "Banana",
+        "image": "banana.jpg",
+        "from": "Tropical Plantation",
+        "nutrients": {
+          "potassium": "400mg",
+          "vitaminB6": "0.5mg",
+          "calories": "90"
+        },
+        "quantity": "Dozen",
+        "price": 3.49,
+        "organic": false,
+        "description": "Delicious bananas sourced from a tropical plantation."
+      }
+    ]      
+  
